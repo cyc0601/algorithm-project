@@ -2,6 +2,9 @@ package twosum;
 
 import util.OutPutUtil;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class TwoSumTester {
 
     public int[] twoSum(int[] nums, int target) {
@@ -40,5 +43,8 @@ public class TwoSumTester {
 
         int[] case4 = tt.twoSum(new int[]{-1 ,-2,-3,-4,-5}, -8);
         OutPutUtil.print(case4);
+
+        Map<Integer,Integer> map = new HashMap<>();
+        map.containsKey(1);
     }
 }
